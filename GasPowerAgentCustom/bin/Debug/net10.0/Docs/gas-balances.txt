@@ -1,0 +1,23 @@
+﻿Gas Balances API
+
+The Gas Balances API provides current and historical gas balance
+information.
+
+Endpoint:
+GET /api/gas-balances/{date}
+
+The balance is calculated as:
+
+Gas Balance = Supply - Demand
+
+Supply consists of terminal nominations, storage withdrawals,
+and imported gas.
+
+Demand consists of industrial demand, domestic consumption,
+power-generation demand, and exports.
+
+A positive balance means supply exceeds demand.
+
+A negative balance means demand exceeds supply.
+
+Gas balance values are measured in GWh.

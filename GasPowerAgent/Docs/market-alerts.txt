@@ -1,0 +1,19 @@
+﻿Market Alerts API
+
+The Market Alerts API exposes operational alerts affecting
+gas and power markets.
+
+Endpoint:
+GET /api/market-alerts
+
+Alert severity levels are:
+
+Information
+Warning
+Critical
+
+Critical alerts may indicate infrastructure outages,
+significant supply disruption, or serious operational events.
+
+Applications should retrieve active alerts rather than relying
+on previously cached alert information.

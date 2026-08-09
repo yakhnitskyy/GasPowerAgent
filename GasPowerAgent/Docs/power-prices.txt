@@ -1,0 +1,14 @@
+﻿Power Prices API
+
+The Power Prices API provides historical and current wholesale
+electricity prices.
+
+Endpoint:
+GET /api/power-prices/{date}
+
+Prices are expressed in GBP per MWh.
+
+Current prices may change throughout the trading day.
+
+Historical prices should be considered immutable after
+end-of-day reconciliation.
